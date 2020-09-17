@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.container {
+    margin: 20px auto;
+    width: 900px;
+    box-shadow: -1px -1px 10px 1px #888888;
+}
+
+/* HEADER */
+.header {
+    overflow: hidden;
+    padding: 10px;
+    background: #272822;
+}
+.header .headerLeft {
+    width: 300px;
+    float: left;
+}
+.header .headerLeft img {
+    width: 175px;
+    height: auto;
+}
+.header .headerRight {
+    width: 500px;
+    float: right;
+    height: 50px;
+}
+.header .headerRight li {
+    list-style: none;  /*supaya poin2 nya hilang*/
+}
+.header .headerRight li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 15px;
+    line-height: 50px;
+    font-size: 14px;
+    float: right;
+    font-variant: small-caps;
+}
+.header .headerRight li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+/*SLideShow*/
+.slideshow {
+    margin-top: 10px;
+}
+.slideshow img {
+    width: 100%;
+}
+
+/* Product */
+.product {
+    overflow: hidden;
+    padding: 50px;
+    background: #ebebeb;
+}
+
+.product h3 {
+    font-weight: bold;
+}
+.product p {
+    font-size: 12px;
+}
+.product .qmarks {
+    color: #ffffff;
+    background: #000000;
+    padding: 5px 10px;
+    font-size: 12px;
+    float: right;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.product .productLeft {
+    width: 225px;
+    float: left;
+    margin-right: 62.5px;
+}
+.product .productRight {
+    width: 225px;
+    float: right;
+}
+
+/* News */
+.news {
+    overflow: hidden;
+    background: #272822;
+}
+.news img {
+    width: 410px;
+    height: auto;
+}
+.news .newsLeft {
+    width: 410px;
+    padding: 20px;
+    float: left;
+    position: relative;
+}
+.news .newsRight {
+    width: 410px;
+    padding: 20px;
+    float: right;
+    position: relative;
+}
+
+.news h3 {
+    position: absolute;
+    left: 50px;
+    top: 10%;
+}
+.news p {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 10px;
+    width: 100px;
+}
+.news a {
+    position: absolute;
+    left: 50px;
+    top: 225px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Information */
+.information {
+    overflow: hidden;
+    padding: 20px 100px;
+    background: #272822;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.information .informationLeft {
+    width: 200px;
+    margin-right: 30px;
+    float: left;
+}
+
+.information .informationLeft li {
+    list-style: none;
+}
+
+.information .informationLeft li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}   
+.information .informationLeft p {
+    color: #ffffff;
+}
+.information .informationRight {
+    width: 200px;
+    float: right;
+}
+.information .informationRight li {
+    list-style: none;
+}
+.information .informationRight img {
+    width: 50px;
+    height: 50px;
+}
+.footer {
+    background: #272822;
+    text-align: center;
+    padding: 20px;
+}
+.footer p {
+    font-size: 12px;
+    color: #ffffff;
+}
